@@ -1,3 +1,46 @@
 table {
+    border-collapse: collapse;
+    background-color: rgb(253, 201, 249);
+    min-width: 1500px;
+    min-height: 750px;
+}
+th, td {
+    border: solid 2.5px darkmagenta;
+    text-align: center;
+    padding: .75em;
+    font-size: 24px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+.bobik {
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    background-color: rgb(201, 147, 201);
     
+}
+td {
+    min-width: 100px;
+}
+caption {
+    margin: 20px 0px 20px 0px;
+}
+
+.bobik--ee {
+    font-size: 0;
+    font-style: italic;
+    color: rgb(67, 0, 143);
+    transition: 1s ease-in-out;
+}
+
+.bobik--ee:hover {
+    font-size: 12px;
+    transform: rotate(360deg);
+    transition: 1s ease;
 }
